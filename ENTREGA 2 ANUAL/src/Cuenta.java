@@ -8,4 +8,8 @@ public class Cuenta {
         this.nombreIdentificador = nombreIdentificador;
         this.password = password;
     }
+
+    public String getNombreIdentificador() {
+        return nombreIdentificador;
+    }
 }

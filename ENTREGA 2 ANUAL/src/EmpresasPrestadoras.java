@@ -1,8 +1,8 @@
-public class OrganismoDeControl {
+public class EmpresasPrestadoras {
     private String nombre;
     private Integer cuit;
     private UsuarioEmpresarial personaACargo;
-    public OrganismoDeControl(String nombrePersona, Integer cuitPersona, UsuarioEmpresarial persona) {
+    public EmpresasPrestadoras(String nombrePersona, Integer cuitPersona, UsuarioEmpresarial persona) {
         this.setCuit(cuitPersona);
         this.setNombre(nombrePersona);
         this.setPersonaACargo(persona);
